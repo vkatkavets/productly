@@ -1,0 +1,22 @@
+{
+  "name": "productly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pRogramISteRx/productly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pRogramISteRx/productly/issues"
+  },
+  "homepage": "https://github.com/pRogramISteRx/productly#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
