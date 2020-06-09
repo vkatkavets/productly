@@ -1,9 +1,23 @@
+.logo {
+    display: flex;
+}
+
+.logo-object {
+    @include media-mobile {
+        width: 158px;
+        height: 27px;
+    }
+}
+
 .logo-path {
     @extend %transition;
 }
 
-.logo-svg:hover {
-    .logo-path {
-        fill: $color-primary;
+.logo-svg {
+    cursor: pointer;
+    &:hover {
+        .logo-path {
+            fill: $color-primary;
+        }
     }
 }
